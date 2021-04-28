@@ -15,8 +15,8 @@ body {
 
 .bgFondo2 {
   background-image: url(../img/Backgrounds/M4.png);
-  height: auto;
-  width: 100%;
+  height: 500px;
+  width: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,6 +39,10 @@ body {
 
 .text-colorear{
   background-color: #FFA46B;
+}
+
+.text-colorear-50{
+  background-color: #ffa46b7e;
 }
 
 .loguito{
