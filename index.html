@@ -98,11 +98,46 @@
           <h1 class="h1 text-center">Sobre Nosotros</h1>
           <hr class="blanco">
           <p class="h6 text-justify">¡Hola! Somos Xcape Designs, un grupo de desarrollo Web con una amplia experiencia en la industria. Tenemos experiencia en desarrollo de sitios web para pequeñas y medianas empresas, hasta tiendas de compras online.</p>
-          <a class="text-center btn btn-primary btn-lg" href="#!">Saber Mas &raquo;</a>
+          <a class="text-center btn btn-primary btn-lg" href="#!" data-toggle="modal" data-target="#SobreNosotrosModal">Saber Mas &raquo;</a>
         </div>
       </div>
+
+      <!-- Sobre Nosotros Modal -->
+      <div class="modal fade" id="SobreNosotrosModal" tabindex="-1" role="dialog" aria-labelledby="SobreNosotrosModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header colorAvanced">
+              <h5 class="modal-title text-center" id="SobreNosotrosModalLabel">Xcape Designs</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
+              <div
+              class="hover-overlay ripple py-4 d-flex justify-content-center"
+              data-mdb-ripple-color="light"
+              >
+              <img src="assets/img/svg/LogoXcapeNegro.svg" class="img-fluid"/>
+            
+              </div>
+              
+              <p class="card-text">
+                ¡Hola! Somos Xcape Designs,
+                un grupo de desarrollo Web con una amplia experiencia en la industria.
+                Tenemos experiencia en desarrollo de sitios web
+                para pequeñas y medianas empresas,
+                hasta tiendas de compras online.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Sobre Nosotros Modal -->
       
-      <!-- /.row -->
     </div>
     <!-- /.Sobre Nosotros -->
 
@@ -116,7 +151,7 @@
             <h1 class="h1 text-center">Servicios</h1>
             <hr class="blanco">
             <p class="h6 text-justify">Nos aseguramos de utilizar siempre las últimas tecnologías de desarrollo web: HTML5, CSS3, jQuery, WordPress. Si necesitas una web moderna, funcional y que se adapte a todos los diferentes tipos de pantallas, te aseguro que has venido al lugar indicado.</p>
-            <a class="btn btn-primary btn-lg" href="#!">Ver Mas &raquo;</a>
+            <a class="btn btn-primary btn-lg" href="#!" data-toggle="modal" data-target="#ServiciosModal">Ver Mas &raquo;</a>
           </div>
           <div class="mt-3 mx-xs-0 mx-sm-5 mx-md-5 mx-xl-0">
             <img class="img-thumbnail img-responsive loguito m-3 " src="assets/img/servicios/html.png" alt="Html">
@@ -168,7 +203,41 @@
         </div>
 
       </div>
-      <!-- /.row -->
+      
+      <!-- Servicios Modal -->
+      <div class="modal fade" id="ServiciosModal" tabindex="-1" role="dialog" aria-labelledby="ServiciosModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header colorAvanced">
+              <h5 class="modal-title text-center" id="ServiciosModalLabel">Servicios</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
+              <div
+              class="hover-overlay ripple py-4 d-flex justify-content-center"
+              data-mdb-ripple-color="light"
+              >
+              <img src="assets/img/svg/LogoXcapeNegro.svg" class="img-fluid"/>
+            
+              </div>
+              
+              <p class="card-text">
+                Nos aseguramos de utilizar siempre las últimas tecnologías de desarrollo web:
+                HTML5, CSS3, jQuery, WordPress. Si necesitas una web moderna,
+                funcional y que se adapte a todos los diferentes tipos de pantallas,
+                te aseguro que has venido al lugar indicado.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Servicios Modal -->
     </div>
     <!-- /.Servicios -->
 
@@ -180,7 +249,7 @@
             <h1 class="h2 text-center text-wrap">Cotiza con Nosotros</h1>
             <hr class="blanco">
             <p class="h6 text-justify py-3">Tenemos los mejores precios a tu alcanse.</p>
-            <a class="text-center btn btn-primary btn-lg" href="mailto:adriabarberesbert@gmail.com">Pedir Cotizacion.</a>
+            <hr class="blanco">
           </div>
         </div>
         <div class="col-md-2 px-0 mt-3 h-100">
