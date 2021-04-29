@@ -13,6 +13,9 @@
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
 
+    <!-- font-awesome core CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
@@ -171,9 +174,16 @@
               <div class="card-header">
                 <h4 class="card-title text-center">Desarrollo Web</h4>
               </div>
-              <div class="card-img-top"><i class="fas fa-desktop"></i></div>
-              <div class="card-body">
-                <p class="card-text text-justify">Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus espectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia.</p>
+              <div class="card-img-top text-center pt-4">
+                <a class="btn mb-3" data-toggle="collapse" href="#collapseDw" role="button" aria-expanded="false" aria-controls="collapseDw">
+                  <i class="fas fa-laptop-code fa-5x" style="color:#FFA46B; "></i>
+                </a>
+              </div>
+              <div class="collapse" id="collapseDw">
+                <hr>
+                <div class="card-body">
+                  <p class="card-text text-justify">Páginas web atractivas y funcionales con el objetivo de satisfacer todas tus espectativas. La importancia del diseño es fundamental para tener éxito y atraer a tus visitantes. También lo es la velocidad de carga del sitio web, deben ser rápidos para que el visitante tenga la mejor experiencia.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -185,9 +195,17 @@
               <div class="card-header">
                 <h4 class="card-title text-center">Diseño Responsive</h4>
               </div>
-              <div class="card-img-top"><i class="fas fa-mobile-alt"></i></div>
-              <div class="card-body">
-                <p class="card-text text-justify">Hoy en día las páginas web se ven en multitud de dispositivos como teléfonos movil, tablets, PCs etc. La tecnología móvil es el presente y el futuro. Para eso es importante y me aseguro de que tu sitio web sea compatible con todos los tamaños de pantalla de esta época moderna.</p>
+              <div class="card-img-top text-center pt-4">
+                <a class="btn mb-3" data-toggle="collapse" href="#collapseRpsv" role="button" aria-expanded="false" aria-controls="collapseRpsv">
+                  <i class="fas fa-mobile-alt fa-5x" style="color:#FFA46B;"></i>
+                </a>  
+              </div>
+
+              <div class="collapse" id="collapseRpsv">
+                <hr>
+                <div class="card-body">
+                  <p class="card-text text-justify">Hoy en día las páginas web se ven en multitud de dispositivos como teléfonos movil, tablets, PCs etc. La tecnología móvil es el presente y el futuro. Para eso es importante y me aseguro de que tu sitio web sea compatible con todos los tamaños de pantalla de esta época moderna.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -199,11 +217,19 @@
               <div class="card-header">
                 <h4 class="card-title text-center">Mantenimiento</h4>
               </div>
-              <div class="card-img-top"><i class="fas fa-cog"></i></div>
-              <div class="card-body">
-                <p class="card-text text-justify">Puedes contactarme si necesitas actualizar tu página web, agregar nuevas secciones o cualquier cambio que necesites. Esto es perfecto para los sitios web de pequeñas empresas, donde no se necesita un diseñador de páginas web a tiempo completo, sino solo en distintas ocasiones.</p>
+              <div class="card-img-top text-center pt-4">
+                <a class="btn mb-3" data-toggle="collapse" href="#collapseMtto" role="button" aria-expanded="false" aria-controls="collapseMtto">
+                  <i class="fas fa-tools fa-5x" style="color:#FFA46B; "></i>
+                </a>  
               </div>
-
+              
+              <div class="collapse" id="collapseMtto">
+                <hr>
+                <div class="card-body">
+                  <p class="card-text text-justify">Puedes contactarme si necesitas actualizar tu página web, agregar nuevas secciones o cualquier cambio que necesites. Esto es perfecto para los sitios web de pequeñas empresas, donde no se necesita un diseñador de páginas web a tiempo completo, sino solo en distintas ocasiones.</p>
+                </div>
+              </div>
+            
             </div>
           </div>
         </div>
@@ -288,7 +314,7 @@
               </div>
             </div>
             <div class="card-footer text-center">
-              <a class="text-center btn btn-primary btn-lg" href="mailto:adriabarberesbert@gmail.com">Cotizar &raquo;</a>
+              <a class="text-center btn btn-primary btn-lg" href="#!" data-toggle="modal" data-target="#PreciosModal">Cotizar &raquo;</a>
             </div>
             
           </div>
@@ -324,8 +350,8 @@
         <div class="col-md-3 px-1 h-150">
           <div class="card">
             <div class="card-header colorPro">
-              <div class="centillo d-flex justify-content-start border border-dark m-2">
-                <h6 class="h6 text-wrap align-self-end"><strong>Destacado</strong></h6>
+              <div class="centillo border border-dark colorAvanced m-2">
+                <h6 class="h1 p-2 ml-3"><strong><i class="fas fa-medal" style="color:#ffe600;"></i></strong></h6>
               </div>
               <h4 class="card-title text-center pl-5">Pro</h4>
             </div>
@@ -381,6 +407,95 @@
         </div>
       </div>
     </div>
+      <!-- Precios Modal -->
+      <div class="modal fade" id="PreciosModal" tabindex="-1" role="dialog" aria-labelledby="PreciosModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header colorAvanced">
+              <h5 class="modal-title text-center" id="SobreNosotrosModalLabel">Xcape Designs</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
+              <div class="card-text">
+                <form class="text-black">
+                  <!-- 2 column grid layout with text inputs for the first and last names -->
+                  <div class="row mb-1">
+                    <div class="col">
+                      <div class="form-outline">
+                        <input
+                          type="text"
+                          id="form3Example1"
+                          class="form-control"
+                        />
+                        <label class="form-label" for="form3Example1"
+                          >Nombre</label
+                        >
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="form-outline">
+                        <input
+                          type="text"
+                          id="form3Example2"
+                          class="form-control"
+                        />
+                        <label class="form-label" for="form3Example2"
+                          >Apellido</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+      
+                  <!-- Email input -->
+                  <div class="form-outline mb-1">
+                    <input type="email" id="form3Example3" class="form-control" />
+                    <label class="form-label" for="form3Example3"
+                      >Correo Electronico</label
+                    >
+                  </div>
+      
+                  <!-- Mensaje input -->
+                  <div class="form-outline mb-1">
+                    <input
+                      type="Text-Area"
+                      id="form3Example4"
+                      class="form-control"
+                    />
+                    <label class="form-label" for="form3Example4">Mensaje</label>
+                  </div>
+      
+                  <!-- Checkbox -->
+                  <div class="form-check mb-3">
+                    <input
+                      class="form-check-input d-inline-block px-2"
+                      type="checkbox"
+                      value=""
+                      id="form2Example3"
+                      checked
+                    />
+                    <label class="form-check-label d-inline-block px-2" for="form2Example3">
+                      Mantente Informado
+                    </label>
+                  </div>
+      
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary btn-block mb-1">
+                    Enviar
+                  </button>
+      
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Pre Modal -->
     <!-- /.Precios -->
 
     <!-- Contactanos -->
@@ -501,6 +616,9 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+    <!-- fontawesont core JavaScript -->
+    <script src="assets/js/all.min.js"></script>
+    
   </body>
 
 </html>
