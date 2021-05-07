@@ -16,7 +16,7 @@ body {
 .bgFondo2 {
   background-image: url(../img/Backgrounds/M4.png);
   height: 500px;
-  width: auto;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,6 +55,10 @@ body {
 
 hr.blanco{
   border-top: 5px solid #fff !important;
+}
+
+.Alto-250{
+  height: 250px;
 }
 
 /* Svg´s Logos */
