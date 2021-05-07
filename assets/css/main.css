@@ -58,7 +58,7 @@ hr.blanco{
 }
 
 .Alto-250{
-  height: 250px;
+  min-height: 250px;
 }
 
 /* Svg´s Logos */
