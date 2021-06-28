@@ -1414,16 +1414,27 @@
     </script>
     
     <!-- Efecto Scroll -->
-    <!-- <script>
-      $(document).ready(function() {
-        $("#addLinks").change(function(){
-            var mensaje = $("input[type='Text-Area']").length+1;
+    <script>
+      
+      const frm = document.querySelector("#frm");
 
-            $(this).before('<div class="form-outline mb-2"><label for="Enlace'+ contador +'">Enlace:</label><input type="Text-Area" id="Enlace'+ contador +'" name="Enlace'+ contador +'"/><button type="button" class="delete_Enlace btn btn-primary">Del</button></div>');
+      frm.addEventListener("submit", event => {
+        event.preventDefault();
+        const frm = event.target;
+        const phone = 584247031071
+        const formData = {
+          name: frm.name.value,
+          business: frm.business.value,
+          email: frm.email.value,
+          message: frm.message.value
+        };
 
-        });
-      })
-    </script> -->
+        const URL = `https://api.whatsapp.com/send?phone=${phone}&text=Hola,%20te%20a%20escrito%20${formData.name}%20para%20contactarse%20contigo%20escribele%20a%20este%20numero%20o%20al%20siguiente%20correo:%20${formData.email}%20el%20requiere:%20${formData.message}&source=&data=`;
+
+        window.open(URL, "_blank");
+      });
+
+    </script>
 
   </body>
 
