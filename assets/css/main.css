@@ -1,48 +1,67 @@
 
 body {
-  padding-top: 56px;
+  padding-top: 0px;
 }
 /* Fondos */
 .bgFondo1 {
- background-image: url(../img/Backgrounds/portada1.png);
- height: 560px;
- width: 100%;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+  background-image: linear-gradient(
+    #0084ff3b, 
+    #0084ff3b
+  ),url(../img/Backgrounds/M6.png);
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
 
+}
+
+.navbar{
+  transition: all 0.5s ease;
 }
 
 .bgFondo2 {
-  background-image: url(../img/Backgrounds/M4.png);
-  height: 500px;
+  background-image: linear-gradient(
+    #0084ff3b, 
+    #0084ff3b
+  ),url(../img/Backgrounds/que-hacemos.jpg);
+  height: 600px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .bgFondo3 {
-  background-image: url(../img/Backgrounds/M6.png);
+  background-image: linear-gradient(
+    #0084ff3b, 
+    #0084ff3b
+  ),url(../img/Backgrounds/M4.png);
   height: auto;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .bgWhite {
-  background-color: white;
-  height: auto;
-  width: 100%;
-}
+  background-color: hsla(0, 0%, 100%, 0.5);
+  }
 
 .text-colorear{
-  background-color: #FFA46B;
+  background-color: #5c01b183;
+}
+
+.text-colorear2{
+  background-color: #5c01b1;
 }
 
 .text-colorear-50{
-  background-color: #ffa46b7e;
+  background-color: #5c01b13b;
 }
 
 .loguito{
@@ -61,6 +80,40 @@ hr.blanco{
   min-height: 250px;
 }
 
+.mt-150{
+  margin-top: 50px;
+}
+
+.mt-120{
+  margin-top: 1rem;
+}
+
+@media (min-width: 760px) {
+
+  .t-70 {
+    height: 70px;
+  }
+  
+  .m-120{
+    margin-top: 120px;
+  }
+
+  .mt-120{
+    margin-top: 120px;
+  }
+  .mt-150{
+    margin-top: 225px;
+  }
+
+  .lmt-150{
+    margin-top: 225px;
+  }
+}
+
+.rounded-lajy {
+  border-radius:2rem!important
+}
+
 /* Svg´s Logos */
 
 .svg {
@@ -69,14 +122,21 @@ hr.blanco{
 }
 
 .svg2 {
-  width: 160px;
+  width: 120px;
 }
+
+.svg-portada {
+  width: 400px;
+  height: 300px;
+}
+
 
 /*Cambios Varios*/
 
 .titulo {
   font-weight: bolder;
   color: #fff;
+  transition: all 1s ease;
 }
 
 .centillo{
@@ -87,7 +147,14 @@ hr.blanco{
   top: 0px;
   clip-path: polygon(0 0, 68% 0, 100% 100%, 0 100%);
   clear: left;
-  
+}
+
+.a-footer{
+  position: absolute;
+  left: 70%;
+  top: -45px;
+  clear: left;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 h4.card-title{
@@ -108,4 +175,9 @@ h4.card-title{
 
 .colorUltra{
   background-image: radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 91.67%, #aa00ae 100%);
+}
+
+.modal-dialog {
+  max-width: 980px !important;
+  margin: 1.75rem auto;
 }
